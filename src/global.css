@@ -1,0 +1,16 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: turquoise;
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+
+body.dark-mode{
+    background: #121212;
+    color:#fff;
+}
+
+body.dark-mode .container{
+    background:#2b2b2b;
+}

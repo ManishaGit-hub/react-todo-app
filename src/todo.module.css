@@ -1,0 +1,141 @@
+.container{
+    background-color: darksalmon;
+    padding:30px 40px;
+    border-radius:12px;
+    width:380px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+.container h1{
+    text-align: center;
+    color:#333;
+    margin:0 0 12px 0;
+}
+
+.input-section{
+ display:flex;
+ gap:10px;
+}
+
+.input-section input{
+    flex:1;
+    padding:10px 12px;
+    box-sizing: border-box;
+    height: 44px;
+    border-radius: 8px;
+    border:1px solid #ddd;
+}
+
+.input-section select{
+    width:69px;
+    height:44px;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+.input-section button{
+    height: 44px;
+    padding:0 18px;
+    background-color: #0ba70b;
+    color:#fff;
+    border:none;
+    border-radius: 8px;
+}
+
+.task-buttons button{
+  margin-left:10px;
+  cursor:pointer;
+  border:none;
+  background:none;
+}
+
+.task-buttons button:first-child {
+  color: green;
+}
+
+.task-buttons button:last-child{
+  color: red;
+}
+
+.active-filter{
+  background-color: #3498db !important;
+  color:white;
+  border:none;
+  border-radius: 4px;
+}
+
+.filter-buttons button{
+  margin-right:8px;
+  padding:6px 12px;
+  border-radius:6px;
+  border:none;
+  background-color: #f0f0f0;
+  cursor:pointer;
+}
+
+.filter-buttons button:last-child{
+  margin-right: 0;
+}
+
+.action-buttons button{
+  margin-right:8px;
+  padding:6px 12px;
+  border-radius: 6px;
+  border:none;
+  background: #888;
+  color:#fff;
+  cursor:pointer;
+}
+
+.action-buttons button:hover{
+  background:#666;
+}
+
+.darkModeBtn{
+  position: absolute;
+  top:16px;
+  right:16px;
+  border:none;
+  background: #f0f0f0;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.taskList{
+  list-style:none;
+  padding:0;
+  margin:0;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.taskList::-webkit-scrollbar{
+  width:6px;
+}
+
+.taskList::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.taskList li{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:8px 10px;
+  border-bottom: 1px solid #ddd;
+  word-wrap:break-word;
+  overflow-wrap: break-word;
+}
+.taskList li span{
+  flex:1;
+  margin-right:10px ;
+  word-break:break-word ;
+}
+
+.completed span{
+  text-decoration: line-through;
+  color:#777;
+}
