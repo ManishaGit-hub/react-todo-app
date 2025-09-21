@@ -4,6 +4,7 @@ A simple yet powerful To-Do application built using React, designed to practice 
 
 Live Demo
 ---------
+https://manishagit-hub.github.io/react-todo-app/
 
 Features
 --------
