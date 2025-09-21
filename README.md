@@ -1,12 +1,54 @@
-# React + Vite
+React To-DO App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful To-Do application built using React, designed to practice state management, component reusability, and event handling.
 
-Currently, two official plugins are available:
+Live Demo
+---------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+--------
+➕ Add tasks with priority levels (Low / Medium / High)
+✅ Mark tasks as completed
+🗑️ Delete individual tasks
+🔍 Filter tasks: All / Pending / Completed
+📊 Task counter showing total tasks and completed tasks
+🌙 Dark mode toggle
+💾 Persistent storage using localStorage (tasks remain after refresh/closing the tab)
 
-## Expanding the ESLint configuration
+Tech Stack
+----------
+React (Hooks, Components, JSX)
+HTML
+CSS
+JavaScript
+GitHub Pages (for deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Setup
+-------------
+clone the repository:
+
+```bash
+git clone https://github.com/ManishaGit-hub/react-todo-app.git
+cd react-todo-app
+```
+
+install dependencies:
+---------------------
+npm install
+
+Run the app locally:
+--------------------
+npm run dev
+
+build for production(deployment):
+---------------------
+npm run build
+
+Deploy to Github Pages:
+-----------------------
+npm run deploy
+
+**Learning Note**
+This app was first built using HTML, CSS, and JavaScript to practice DOM manipulation and core JavaScript concepts.
+It was then re-implemented in React to learn about component-based design, props, state management, and deployment.
+This comparison helped me clearly see the differences between building apps in plain JS vs React.
